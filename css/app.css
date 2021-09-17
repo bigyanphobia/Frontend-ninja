@@ -1,4 +1,14 @@
-h1 {
-  color: #000;
+#hero {
+  color: #fff;
+  background-image: url(../images/img_hero-image.png);
+}
+
+footer {
+  background-color: #333333;
+}
+
+#services {
+  background-color: #423633;
+  color: #fff;
 }
 /*# sourceMappingURL=app.css.map */
