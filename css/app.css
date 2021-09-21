@@ -1,14 +1,36 @@
-#hero {
-  color: #fff;
-  background-image: url(../images/img_hero-image.png);
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
-footer {
-  background-color: #333333;
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
-#services {
-  background-color: #423633;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  padding: 25px 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn--primary {
   color: #fff;
+  background-color: #27AD6C;
 }
 /*# sourceMappingURL=app.css.map */
